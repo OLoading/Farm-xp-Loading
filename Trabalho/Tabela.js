@@ -11,10 +11,11 @@ function menu(){
         console.log("8 - media")
         console.log("9 - main")
         console.log("0 - Sair")
-        break  
+        break
     }
     
     var a = egoist("Digite uma opcao: ")
+    return a
 }
 
 console.log(menu())
